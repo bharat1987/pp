@@ -19,3 +19,8 @@ logging:
     com.infoys.sim: info
   pattern:
     file: "%d{yyyy-MM-dd HH:mm:ss,SSS} %5p [%t] %c [%M] - %m%n"
+
+eureka:
+    client:
+        service-url.defaultZone: http://127.0.0.1:5050/eureka/
+
