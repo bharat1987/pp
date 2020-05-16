@@ -6,3 +6,4 @@ server:
   port: 5052
 
 sim.inactive: Inactive
+sim.req.valid: Valid
